@@ -16,10 +16,6 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Helin Devani
- */
 public class database extends HttpServlet {
 
     public void doGet(HttpServletRequest req,HttpServletResponse res)throws IOException,ServletException
