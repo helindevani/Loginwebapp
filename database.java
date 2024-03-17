@@ -45,6 +45,7 @@ public class database extends HttpServlet {
             } 
         catch (ClassNotFoundException ex) 
         {
+            //exception
             Logger.getLogger(database.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
             Logger.getLogger(database.class.getName()).log(Level.SEVERE, null, ex);
